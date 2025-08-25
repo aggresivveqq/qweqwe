@@ -1,0 +1,181 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f2f5; /* Светлый фон для демонстрации баннера */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.banner-container {
+    width: 1520px; /* Фиксированная ширина баннера */
+    height: 334px; /* Фиксированная высота баннера */
+    /* Фон: глубокий фиолетовый к красному */
+    background: linear-gradient(135deg, #7b3f9b 0%, #d62828 100%);
+    border-radius: 25px; /* Скругленные углы */
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3); /* Более выраженная тень */
+    display: flex; /* Используем flexbox */
+    align-items: center; /* Центрирование по вертикали */
+    justify-content: flex-start; /* Выравнивание по левому краю */
+    padding: 40px 60px; /* Увеличенные отступы */
+    color: #ffffff;
+    position: relative;
+    overflow: hidden; /* Обрезаем, если что-то выйдет за границы */
+}
+
+    /* Декоративные элементы на фоне */
+    .banner-container::before,
+    .banner-container::after {
+        content: '';
+        position: absolute;
+        background: rgba(255, 255, 255, 0.15); /* Чуть ярче и прозрачнее */
+        border-radius: 50%;
+        filter: blur(70px); /* Больше размытия */
+        z-index: 0;
+    }
+
+    .banner-container::before {
+        width: 400px; /* Больше размер */
+        height: 400px;
+        top: -150px;
+        left: -150px;
+    }
+
+    .banner-container::after {
+        width: 350px; /* Больше размер */
+        height: 350px;
+        bottom: -120px;
+        right: -120px;
+        opacity: 0.8;
+    }
+
+.left-content { /* Основной контейнер контента */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Выравнивание по левому краю */
+    text-align: left; /* Выравнивание текста по левому краю */
+    gap: 8px;
+    z-index: 1; /* Поверх декоративных элементов */
+    padding-top: 80px; /* Отступ, чтобы лента не перекрывала контент */
+    max-width: 800px; /* Ограничиваем ширину контента для лучшей читаемости */
+}
+
+/* Стили для элемента "ленты" */
+.ribbon-wrapper {
+    position: absolute;
+    top: 20px; /* Отступ сверху баннера */
+    left: -50px; /* Начинаем немного за пределами баннера для эффекта "обертывания" */
+    width: calc(100% + 100px); /* Шире баннера для эффекта "обертывания" */
+    background: linear-gradient(90deg, #f8f8f8 0%, #f0f0f0 100%);
+    padding: 10px 20px;
+    border-radius: 5px;
+    transform: rotate(-3deg); /* Небольшой наклон ленты */
+    z-index: 10; /* Поверх остальных элементов */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Тень для объема */
+    border-top: 3px solid #00c6ff; /* Ярко-синяя обводка сверху */
+    text-align: center; /* Центрирование текста внутри ленты */
+    animation: ribbon-bounce 2s infinite ease-in-out; /* Легкая анимация */
+}
+
+@keyframes ribbon-bounce {
+    0%, 100% {
+        transform: rotate(-3deg) translateY(0);
+    }
+
+    50% {
+        transform: rotate(-3deg) translateY(-5px);
+    }
+    /* Небольшое "подпрыгивание" */
+}
+
+.ribbon-text { /* Общий класс для текста в ленте (контейнер для двух частей) */
+    font-size: 1.6rem; /* Уменьшенный общий размер шрифта */
+    font-weight: 800; /* Общая жирность шрифта */
+    margin: 0; /* Убираем стандартные отступы параграфа */
+    text-transform: uppercase; /* Текст заглавными буквами */
+    letter-spacing: 1px; /* Небольшой межбуквенный интервал */
+    display: flex; /* Используем flexbox для выравнивания частей */
+    justify-content: flex-end; /* Выравнивание по правому краю */
+    align-items: baseline; /* Выравниваем по базовой линии */
+    gap: 10px; /* Отступ между частями текста */
+    padding-right: 70px; /* Дополнительный отступ справа */
+}
+
+.catchy-phrase-part {
+    /* Градиент для цепляющей фразы: желто-оранжево-красный */
+    background: linear-gradient(45deg, #ffd700, #ff8c00, #ff4500); /* От золотого к ярко-красному */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent; /* Fallback */
+}
+
+.speed-part {
+    /* Градиент для скорости: ярко-красный */
+    background: linear-gradient(45deg, #ff0000, #ff4500, #ff8c00); /* От ярко-красного к оранжевому */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent; /* Fallback */
+    font-size: 1.8rem; /* Уменьшенный размер для выделения, но все еще больше */
+    font-weight: 900; /* Еще жирнее */
+}
+
+.tariff-name {
+    font-size: 3rem; /* Размер шрифта */
+    font-weight: 800;
+    line-height: 1;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.price-section { /* Контейнер для цены и скидки */
+    display: flex;
+    flex-direction: column; /* Размещаем элементы вертикально */
+    align-items: flex-start; /* Выравнивание по левому краю */
+    gap: 5px; /* Отступ между ценой и скидкой */
+    margin-top: 12px;
+    padding-top: 8px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.price-display { /* Контейнер для чисел цены */
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+}
+
+.old-price {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: line-through;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.current-price {
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.4);
+}
+
+.per-month {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.discount-label { /* Класс для скидки, теперь под ценой */
+    background-color: #ff4500; /* Яркий оранжевый */
+    color: #ffffff;
+    font-weight: 700;
+    padding: 7px 16px;
+    border-radius: 18px;
+    font-size: 1rem;
+    display: inline-block; /* Или block, если нужен полный перенос */
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 5px; /* Отступ сверху от цены */
+}

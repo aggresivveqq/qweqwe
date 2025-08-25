@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\china\\source\\repos\\\u043C\u0443\u0441\u043E\u0440\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1DE4506F-66DB-46D6-855A-7005C4011C20}|\u043C\u0443\u0441\u043E\u0440\\\u043C\u0443\u0441\u043E\u0440.csproj|c:\\users\\china\\source\\repos\\\u043C\u0443\u0441\u043E\u0440\\\u043C\u0443\u0441\u043E\u0440\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1DE4506F-66DB-46D6-855A-7005C4011C20}|\u043C\u0443\u0441\u043E\u0440\\\u043C\u0443\u0441\u043E\u0440.csproj|solutionrelative:\u043C\u0443\u0441\u043E\u0440\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DE4506F-66DB-46D6-855A-7005C4011C20}|\u043C\u0443\u0441\u043E\u0440\\\u043C\u0443\u0441\u043E\u0440.csproj|c:\\users\\china\\source\\repos\\\u043C\u0443\u0441\u043E\u0440\\\u043C\u0443\u0441\u043E\u0440\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DE4506F-66DB-46D6-855A-7005C4011C20}|\u043C\u0443\u0441\u043E\u0440\\\u043C\u0443\u0441\u043E\u0440.csproj|solutionrelative:\u043C\u0443\u0441\u043E\u0440\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DE4506F-66DB-46D6-855A-7005C4011C20}|\u043C\u0443\u0441\u043E\u0440\\\u043C\u0443\u0441\u043E\u0440.csproj|c:\\users\\china\\source\\repos\\\u043C\u0443\u0441\u043E\u0440\\\u043C\u0443\u0441\u043E\u0440\\wwwroot\\img\\bde3015851fe11f0a617421a7b1dd356_1 (1).jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{1DE4506F-66DB-46D6-855A-7005C4011C20}|\u043C\u0443\u0441\u043E\u0440\\\u043C\u0443\u0441\u043E\u0440.csproj|solutionrelative:\u043C\u0443\u0441\u043E\u0440\\wwwroot\\img\\bde3015851fe11f0a617421a7b1dd356_1 (1).jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "bde3015851fe11f0a617421a7b1dd356_1 (1).jpg -  [\u0420\u0443\u0441\u0441\u043A\u0438\u0439 (\u0420\u043E\u0441\u0441\u0438\u044F)] - Bitmap [1344x768, 24-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, JPG]",
+              "DocumentMoniker": "C:\\Users\\china\\source\\repos\\\u043C\u0443\u0441\u043E\u0440\\\u043C\u0443\u0441\u043E\u0440\\wwwroot\\img\\bde3015851fe11f0a617421a7b1dd356_1 (1).jpg",
+              "RelativeDocumentMoniker": "\u043C\u0443\u0441\u043E\u0440\\wwwroot\\img\\bde3015851fe11f0a617421a7b1dd356_1 (1).jpg",
+              "ToolTip": "C:\\Users\\china\\source\\repos\\\u043C\u0443\u0441\u043E\u0440\\\u043C\u0443\u0441\u043E\u0440\\wwwroot\\img\\bde3015851fe11f0a617421a7b1dd356_1 (1).jpg -  [\u0420\u0443\u0441\u0441\u043A\u0438\u0439 (\u0420\u043E\u0441\u0441\u0438\u044F)] - Bitmap [1344x768, 24-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, JPG]",
+              "RelativeToolTip": "\u043C\u0443\u0441\u043E\u0440\\wwwroot\\img\\bde3015851fe11f0a617421a7b1dd356_1 (1).jpg -  [\u0420\u0443\u0441\u0441\u043A\u0438\u0439 (\u0420\u043E\u0441\u0441\u0438\u044F)] - Bitmap [1344x768, 24-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-06-25T20:22:48.758Z",
+              "EditorCaption": " -  [\u0420\u0443\u0441\u0441\u043A\u0438\u0439 (\u0420\u043E\u0441\u0441\u0438\u044F)] - Bitmap [1344x768, 24-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\china\\source\\repos\\\u043C\u0443\u0441\u043E\u0440\\\u043C\u0443\u0441\u043E\u0440\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "\u043C\u0443\u0441\u043E\u0440\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\china\\source\\repos\\\u043C\u0443\u0441\u043E\u0440\\\u043C\u0443\u0441\u043E\u0440\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "\u043C\u0443\u0441\u043E\u0440\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAzwLUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-25T20:22:46.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\china\\source\\repos\\\u043C\u0443\u0441\u043E\u0440\\\u043C\u0443\u0441\u043E\u0440\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "\u043C\u0443\u0441\u043E\u0440\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\china\\source\\repos\\\u043C\u0443\u0441\u043E\u0440\\\u043C\u0443\u0441\u043E\u0440\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "\u043C\u0443\u0441\u043E\u0440\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T20:16:55.782Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
