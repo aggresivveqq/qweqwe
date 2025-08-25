@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("мусор")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b84a40f198c6582b9356e38061dac4cede1b7a05")]
 [assembly: System.Reflection.AssemblyProductAttribute("мусор")]
 [assembly: System.Reflection.AssemblyTitleAttribute("мусор")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

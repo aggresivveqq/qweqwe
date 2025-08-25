@@ -31,3 +31,4 @@ C:\Users\china\source\repos\мусор\мусор\obj\Debug\net8.0\refint\мус
 C:\Users\china\source\repos\мусор\мусор\obj\Debug\net8.0\мусор.pdb
 C:\Users\china\source\repos\мусор\мусор\obj\Debug\net8.0\мусор.genruntimeconfig.cache
 C:\Users\china\source\repos\мусор\мусор\obj\Debug\net8.0\ref\мусор.dll
+C:\Users\china\source\repos\мусор\мусор\obj\Debug\net8.0\мусор.sourcelink.json
